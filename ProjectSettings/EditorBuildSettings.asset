@@ -4,7 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARMarkerScene.unity
+    guid: 51a4b34d3325ba0488608252f41f6965
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e80490fda9cb0fb4692d3f5f1fde70a0, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ae9c57d86ca6913478155862ebde0fb6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dca5b5908114ad74f8af34be6ac975d4, type: 2}
